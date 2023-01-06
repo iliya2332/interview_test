@@ -22,7 +22,7 @@ class ImageScreen extends StatelessWidget {
               },
               icon: Icon(Icons.arrow_back)),
         ),
-        body: Image.network(imageUrl["urls"]["small"]),
+        body: Image.network(imageUrl["urls"]["full"]),
       ),
     );
   }
